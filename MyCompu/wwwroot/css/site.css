@@ -1,0 +1,139 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+    margin-bottom: 60px;
+    background-color: transparent;
+    background-image: url('../imagenes/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursiva;
+    font-size: 1.2rem;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.thead-dark th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.5); /* Blanco-transparente */
+}
+
+.table th, .table td {
+    padding: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    border-top: 1px solid #dee2e6;
+}
+
+.container {
+    max-width: 80%; /* Ajuste de ancho m ximo del contenedor */
+}
+
+.table-responsive {
+    max-height: 460px; /* Ajuste de altura m xima del contenedor de la tabla */
+    overflow-y: auto; /* Desplazamiento vertical si es necesario */
+}
+
+.bloque {
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+.bloque2 {
+    max-width: 600px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+.text-warning {
+    font-size: 1.2em;
+}
+
+.card {
+    font-size: 0.875rem; /* Tama o de letra m s peque o */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.card-header {
+    background-color: rgba(0, 123, 255, 0.6); /* Fondo azul con transparencia */
+    color: white; /* Color de texto blanco */
+    border-top-left-radius: 10px; /* Redondear esquinas superiores */
+    border-top-right-radius: 10px; /* Redondear esquinas superiores */
+}
+
+.card-body {
+    padding: 1rem; /* A adir espaciado interno */
+}
+
+hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* L nea divisoria suave */
+}
+
+
+.custom-alert {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8em; /* Texto peque o */
+}
+
+    .custom-alert .alert-heading {
+        margin: 0 10px 0 0;
+        font-size: 1em;
+    }
+
+    .custom-alert p {
+        margin: 0 10px 0 0;
+    }
+
+    .custom-alert .btn {
+        margin-left: auto; /* Para alinear el bot n a la derecha */
+        padding: 5px 10px; /* Tama o del bot n reducido */
+        font-size: 0.8em; /* Texto peque o */
+    }

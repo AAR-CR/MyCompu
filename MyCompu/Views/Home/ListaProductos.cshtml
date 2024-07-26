@@ -1,0 +1,15 @@
+﻿@model IEnumerable<MyCompu.Models.Producto>
+
+<h1>Productos</h1>
+
+<div>
+    @foreach (var producto in Model)
+    {
+        <div>
+            <h2>@producto.Nombre</h2>
+            <p>@producto.Descripcion</p>
+            <p>@producto.Precio</p>
+            <a href="@producto.Url">Más información</a>
+        </div>
+    }
+</div>
